@@ -26,9 +26,18 @@ body {
 .first {
     width: 50%;
     background: red;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
 
 .second {
     width: 50%;
     background-color: yellow;
+    display: flex;
+    flex-direction: column;
 }
