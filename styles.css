@@ -16,9 +16,15 @@ body {
     /* background-color: #000; */
 }
 
-span {
+
+
+/* h1, h5 {
+    align-self: start;
+} */
+
+/* span {
     border: solid pink 2px;
-}
+} */
 
 .main {
     display: flex;
@@ -45,7 +51,32 @@ span {
 form {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 50%;
+}
+
+input[type="email"], input[type="password"], input[type="checkbox"] {
+    padding: 0.35rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border-radius: 0.25rem;
+    padding: 0.35rem;
+    background-color: #fff;
+    margin-bottom: 0.75rem;
+    /* border-color: #d9dcde; */
+
+}
+
+.purple-btn {
+    color: #fff;
+    background-color: #7f56da;
 }
 
 .second {
@@ -54,5 +85,6 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #f3f4f8;
 }
 
