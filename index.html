@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Untitled UI Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,29 +16,33 @@
                 <circle cx="1" cy="1" r="1" stroke="black" stroke-width="0" fill="black" /> 
             </svg> -->
             <p>Untitled UI</p>
-            <h1>Welcome back</h1>
-            <h5>Welcome back! Please enter your details</h5>
-            <form action="">
-                <label for="">Email</label>
-                <input type="email" placeholder="Enter your email">
-                <label for="">Password</label>
-                <input type="password">
-                <span class="check">
-                    <span>
-                        <input type="checkbox" name="" id="">
-                        <label for="">Remember for 30 days</label>
+            <div class="inside-first">
+                <form action="">
+                    <span class="welcome-text">
+                        <h1>Welcome back</h1>
+                        <h5>Welcome back! Please enter your details</h5>
                     </span>
-                    <a>Forgot password</a>
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Enter your email" class="thin-grey-outline">
+                    <label for="">Password</label>
+                    <input type="password" class="thin-grey-outline">
+                    <span class="check">
+                        <span>
+                            <input type="checkbox" name="" id="">
+                            <label for="">Remember for 30 days</label>
+                        </span>
+                        <a href="">Forgot password</a>
+                    </span>
+                    <button type="button" class="purple-btn thin-grey-outline">Sign in</button>
+                    <img src="" alt="">
+                    <button type="button" class="white-btn thin-grey-outline">Sign in with Google</button>
+                </form>
+                <span class="check">
+                    <p>Don't have an account?<p>
+                    <a href="">Sign up</a>
                 </span>
-                <button type="button" class="purple-btn">Sign in</button>
-                <img src="" alt="">
-                <button type="button" class="white-btn">Sign in with Google</button>
-            </form>
-            <span class="check">
-                <p>Don't have an account?</p>
-                <a href="">Sign up</a>
-            </span>
-            <p>&copy; Untitled UI 2017</p> 
+            </div>
+            <p class="copyright">&copy; Untitled UI 2017</p> 
         </div>
         <div class="second">
             <div class="purple-circle">
