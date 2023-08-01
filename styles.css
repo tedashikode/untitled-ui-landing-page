@@ -120,10 +120,17 @@ a {
 
 .check {
     display: flex;
-    justify-content: space-between;
+    /* gap : 0.5rem; */
+    /* justify-content: space-between; */
     font-size: 0.75em;
     border: 2px solid green;
     margin-bottom: 0.5rem;
+}
+
+.check > a {
+    display: flex;
+    justify-content: flex-end;
+    /* outline: none; */
 }
 
 .red {
@@ -253,7 +260,7 @@ button {
     }
     
     .logo-title {
-        display: hidden;
+        display: none;
     }
 
     form {
