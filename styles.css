@@ -17,7 +17,7 @@ body {
     /* background-color: #000; */
 }
   
-.main {
+main {
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -121,9 +121,9 @@ a {
 .check {
     display: flex;
     /* gap : 0.5rem; */
-    /* justify-content: space-between; */
+    justify-content: space-between;
     font-size: 0.75em;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-bottom: 0.5rem;
 }
 
